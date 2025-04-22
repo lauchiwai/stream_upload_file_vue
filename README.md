@@ -1,33 +1,27 @@
-# streamTest
+# 串流檔案上傳前端組件
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vue3](https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs&logoColor=4FC08D)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
 
-## Recommended IDE Setup
+## 核心功能
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 🚀 主要特性
 
-## Type Support for `.vue` Imports in TS
+- **即時進度顯示** - 原生進度條與百分比雙重指示
+- **錯誤處理機制** - 捕捉並顯示上傳過程中的異常狀態
+- **跨域支持** - 內建withCredentials配置
+- **響應式設計** - 自適應容器樣式
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### 📦 技術組成
 
-## Customize configuration
+- 基於Vue3 Composition API
+- 使用Axios處理HTTP傳輸
+- 支持多部分表單數據(Multipart/form-data)
+- 環境變數整合(VITE_URL)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 快速整合
 
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
